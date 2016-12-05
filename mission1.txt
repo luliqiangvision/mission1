@@ -1,1 +1,2 @@
 insert into students(studentID,studentName,studentQQ,studentOnlineCode,studentReportUrl,studentWish,studentGraduateSchool,studentIntroducer,create_at,update_at) values(001,"gao",592150879,427,"http://jnshu.com/#daily/9441","study for ever","jiangsu univercity","yuliang",UNIX_TIMESTAMP(NOW()) ,UNIX_TIMESTAMP(NOW()));
+update students set studentWish = "lao da zui shuai" where studentID = 1;
